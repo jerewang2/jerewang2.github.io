@@ -1,20 +1,162 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Jeremy Wang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Jeremy Wang | Software Engineer & Educator</title>
+  <meta name="description" content="Jeremy Wang is a software engineer, educator, and tutor offering project-based lessons in Python, data science, Arduino, robotics, and AI." />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <h1>Jeremy Wang</h1>
-  <p>Software Engineer, Educator, and Tutor</p>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#home">Jeremy Wang</a>
 
-  <h2>Tutoring</h2>
-  <p>I offer tutoring in Python, data science, Arduino, robotics, and AI fundamentals.</p>
+      <div class="nav-links">
+        <a href="#tutoring">Tutoring</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-  <h2>Portfolio</h2>
-  <p>Coming soon: software projects, teaching materials, and technical work.</p>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Software Engineer • Educator • Tutor</p>
+        <h1>I help students learn coding through practical, project-based lessons.</h1>
+        <p class="hero-text">
+          I teach Python, data science, Arduino, robotics, and beginner AI concepts.
+          I also build software tools and technical documentation for real-world engineering projects.
+        </p>
 
-  <h2>Contact</h2>
-  <p>Email: your-email-here</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Book Tutoring</a>
+          <a class="button secondary" href="#projects">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="tutoring" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Tutoring</p>
+        <h2>Personalized coding lessons for students and beginners.</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Python Fundamentals</h3>
+          <p>Variables, conditionals, loops, functions, data structures, and beginner problem-solving.</p>
+        </article>
+
+        <article class="card">
+          <h3>Data Science</h3>
+          <p>Data cleaning, pandas, visualization, statistics basics, and beginner machine learning.</p>
+        </article>
+
+        <article class="card">
+          <h3>Arduino & Robotics</h3>
+          <p>Hands-on lessons using circuits, sensors, motors, and physical computing projects.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="teaching" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Teaching</p>
+        <h2>Experience teaching project-based technical courses.</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Python & Data Science Instructor</h3>
+          <p>
+            Designed beginner-friendly lessons and assignments for students learning Python,
+            data analysis, visualization, and machine learning.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Arduino Bootcamp Instructor</h3>
+          <p>
+            Taught electronics, coding fundamentals, sensors, actuators, and final project development
+            through hands-on activities.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Robotics & Technical Documentation</h3>
+          <p>
+            Built documentation workflows and educational resources for ROS1 to ROS2 knowledge transfer.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected work across software, teaching, and robotics.</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>ROS1 to ROS2 Documentation Pipeline</h3>
+          <p>
+            A GitHub Actions workflow that converts structured CSV data into YAML and documentation pages.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Machine Learning Photography Assistant</h3>
+          <p>
+            A concept app that helps users take better photos using pose references and visual guidance.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Beginner Data Science Curriculum</h3>
+          <p>
+            A project-based curriculum covering Python, pandas, visualization, ML, and NLP for beginners.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Engineer, teacher, and builder.</h2>
+      </div>
+
+      <p class="wide-text">
+        I’m Jeremy Wang, a software engineer and educator with experience in robotics, Python,
+        technical documentation, and project-based teaching. I enjoy helping students build confidence
+        by turning abstract programming concepts into real, hands-on projects.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Interested in tutoring or working together?</h2>
+      </div>
+
+      <p>
+        Send me an email and tell me what you’re hoping to learn or build.
+      </p>
+
+      <a class="button primary" href="mailto:jwang3320@gmail.com">Email Me</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Jeremy Wang. Built with GitHub Pages.</p>
+  </footer>
 </body>
 </html>
